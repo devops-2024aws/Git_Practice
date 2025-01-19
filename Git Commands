@@ -1,0 +1,28 @@
+Git init : To initialize the git in the working repo
+Git add : Moving the changes from working repo to staging area
+Git Commit : Moving the changes from staging area to local repo
+
+Git clone
+Git pull
+Git push
+
+
+To clone any remote repo we have 3 options: 
+1) By using SSH
+2) By using HTTPS
+3) By using Git CLI    
+
+we can clone any public repo by using https
+only private repo use SSH
+
+Note: 
+-- If you clone any public repo we cant push your changes into the remote repo
+-- If you want to push your changes into remote repo we have 2 options
+     1) By using SSH
+     2) By using Token
+
+We have to add your public pem file into Git
+
+To check pem file default folder is .ssh(c/users/.shh/authentication key
+
+To generate new pem files keys: ssh -keygen
